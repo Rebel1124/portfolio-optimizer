@@ -27,7 +27,7 @@ Aizhen
 # Steps
 
 High Cap
-![Stock Returns Year 2008-2022](Images/1-stock-returns.jpg)
+![Stock Returns Year 2008-2022](Images/1-stock-returns.png)
 
 Low Cap
 ![Stock Returns Year 2008-2022](Images/LC_stock-returns.png)
@@ -52,7 +52,7 @@ Truncated
 
 ## Low Cap
 
-![Stock Returns Year 2008-2022](Images/LC_pie.png)
+![Stock Returns Year 2008-2022](Images/LC_Pie.png)
 ![Stock Returns Year 2008-2022](Images/LC_Efficient.png)
 ![Stock Returns Year 2008-2022](Images/LC_Cumulative.png)
 ![Stock Returns Year 2008-2022](Images/LC_Descriptive.png)
