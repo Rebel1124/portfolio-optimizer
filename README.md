@@ -6,25 +6,35 @@ UTOR: FinTech Bootcamp - Project 1: Portfolio Optimizer
 
 market pic (bull vs bear)
 
-# Background
+## **Background**
 
 Brief description of DOW – what stocks/industries values etc…
 Put DOW Jones Stock Table with Stock Mkt Cap and Industries
 
-# Objective
+## **Objective**
 
 Investigated Optimal Weighted Portfolio for High and Low Cap Stock Against the DOW
 
-# Collaborators
 
-Aizhen
+## **Collaborators**
+* [Aizhen Dong](https://github.com/JD-Yue)
+* [Abuzar Fakhruddin](https://github.com/AbuzarF)
+* [Chris Ringwood](https://github.com/KristopherGit)
+* [Saibal Saha](https://github.com/saibal-saha)
+* [Desi Reddy](https://github.com/Rebel1124)
 
 
-# Technologies Used
+## **Technologies Used**
+1. Python
+2. Pandas
+3. Numpy
+4. Plotly
+5. Monte Carlo Simulator
+6. Yahoo Finance API
+7. Jupyter Notebook
 
-Aizhen
 
-# Steps
+## **Steps**
 
 High Cap
 ![Stock Returns Year 2008-2022](Images/1-stock-returns.png)
@@ -32,7 +42,7 @@ High Cap
 Low Cap
 ![Stock Returns Year 2008-2022](Images/LC_stock-returns.png)
 
-# Results
+## **Results**
 
 
 
@@ -63,10 +73,10 @@ Truncated
 
 
 
-# Conclusion
+## **Conclusion**
 
 
-# Reference
+## **Reference**
 
 
 
