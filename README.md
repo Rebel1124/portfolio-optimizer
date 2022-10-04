@@ -40,7 +40,7 @@ Low Cap
 ## High Cap
 
 Full Data Set
-![Stock Returns Year 2008-2022](/Images/HC_pie.png)
+![Stock Returns Year 2008-2022](Images/HC_pie.png)
 ![Stock Returns Year 2008-2022](Images/HC_Efficient.png)
 ![Stock Returns Year 2008-2022](Images/HC_Cumulative.png)
 ![Stock Returns Year 2008-2022](Images/HC_Descriptive.png)
