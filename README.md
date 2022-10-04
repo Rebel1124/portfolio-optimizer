@@ -1,34 +1,72 @@
 # portfolio-optimizer
 UTOR: FinTech Bootcamp - Project 1: Portfolio Optimizer
 
-## Stock Dataframe graphs/Visualization
 
-### Stock Returns (2008-2022)
-![Stock Returns Year 2008-2022](Images/1-stock-returns.png)
+# Investigated Optimal Weighted Portfolio for High and Low Cap Stock Against the DOW
 
-![Stock Returns Box Plot Year 2008-2022](Images/2-stock-returns-box-plot.png)
+market pic (bull vs bear)
 
-![Stock Returns Histogram Year 2008-2022](Images/3-stock-returns-histogram.png)
+# Background
 
-### Cumulative Stock Returns (2008-2022)
-![Cumulative Stock Returns Year 2008-2022](Images/4-cumulative-stock-returns.png)
+Brief description of DOW – what stocks/industries values etc…
+Put DOW Jones Stock Table with Stock Mkt Cap and Industries
 
-### Optimal Portfolio Weights Calculation
+# Objective
 
-Relationship between stocks
-![Percentage change (log return) covariance matrix](Images/5-log-returns-covariance-plot.png)
+Investigated Optimal Weighted Portfolio for High and Low Cap Stock Against the DOW
 
-![Percentage change (log return) correlation matrix](Images/6-log-returns-correlation-plot.png)
+# Collaborators
 
-Risk Return
-![Risk Return](Images/7-risk-return.png)
-
-Distribution of 10000 portfolios returns 
-![Portfolio Returns Distribution](Images/8-portfolio-returns-distribution.png)
-
-![Optimal portfolio](Images/9-optimal-portfolio.png)
-
-![Optimal Efficient Frontier with Optimal Portfolio](Images10-portfolio-efficient-frontier-with-optimal-portfolio.png)
+Aizhen
 
 
-![Optimal Portfolio Returns vs Benchmark](11-optimal-portfolio-returns-vs-benchmark.png)
+# Technologies Used
+
+Aizhen
+
+# Steps
+
+High Cap
+![Stock Returns Year 2008-2022](Images/1-stock-returns.jpg)
+
+Low Cap
+![Stock Returns Year 2008-2022](Images/LC_stock-returns.png)
+
+# Results
+
+
+
+
+## High Cap
+
+Full Data Set
+![Stock Returns Year 2008-2022](/Images/HC_pie.png)
+![Stock Returns Year 2008-2022](Images/HC_Efficient.png)
+![Stock Returns Year 2008-2022](Images/HC_Cumulative.png)
+![Stock Returns Year 2008-2022](Images/HC_Descriptive.png)
+
+Truncated
+![Stock Returns Year 2008-2021](Images/HC_Truncated_Pie.png)
+![Stock Returns Year 2021-2022](Images/HC_OneYear_Descriptive.png)
+
+
+## Low Cap
+
+![Stock Returns Year 2008-2022](Images/LC_pie.png)
+![Stock Returns Year 2008-2022](Images/LC_Efficient.png)
+![Stock Returns Year 2008-2022](Images/LC_Cumulative.png)
+![Stock Returns Year 2008-2022](Images/LC_Descriptive.png)
+
+Truncated
+![Stock Returns Year 2008-2021](Images/LC_Truncated_Pie.png)
+![Stock Returns Year 2021-2022](Images/LC_OneYear_Descriptive.png)
+
+
+
+# Conclusion
+
+
+
+
+
+
