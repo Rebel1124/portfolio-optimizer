@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe0d9888-70ec-40cd-ab60-4049e7d88256" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Portfolio Optimizer Example-Copy1-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Portfolio Optimizer Example-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Stock Portfolio Optimizer-Copy1-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Stock Portfolio Optimizer-Copy2-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Stock Portfolio Optimizer-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Stock Portfolio Optimizer-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stock Portfolio Optimizer-Copy2.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stock Portfolio Optimizer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Stock Portfolio Optimizer.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="fe0d9888-70ec-40cd-ab60-4049e7d88256" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
