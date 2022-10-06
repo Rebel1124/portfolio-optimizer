@@ -54,7 +54,7 @@ v.) Moreover, in order to compare the optimized portfolio's performance against 
 
 <br />
 
-![Stock Returns Year 2008-2022](Images/1-stock-returns.png)
+![Stock Returns Year 2008-2022](Images/HC-stock-returns.png)
 
 #### <i> Figure 1.</i> <b>High Cap Stock Returns</b>. <i>The above figure illustrates the daily percent change in price of the 'stock_returns' dataframe for JPM, AAPL, WMT, HON & UNH, respectively. Each stock is over-layed ontop of each other and can be filtered & inspected interactively using the Plotly graphing function, with applicable widgets.</i>
 
@@ -251,6 +251,35 @@ The steps outlined above were repeated verbatim for the following low-cap stock 
 ---
 
 ## **Conclusion**
+
+#### Out-of-Sample 
+
+|     Statistic	     |  Low Cap   |	 High Cap  |  Benchmark |
+|--------------------|------------|------------|------------|
+| Initial Investment | $10,000.00 | $10,000.00 | $10,000.00 |
+| Ending Investment	 | $56,418.69 |	$160,922.7 | $26,315.98 |
+|  Max Daily Return  |	 11.46%	  |   14.49%   |   11.37%   |
+|  Min Daily Return	 |   -9.06%   |	 -14.39%   |  -12.93%   |
+|      Return	     |   -12.30%  |   20.69%   |    7.29%   |
+|    Volatility      |	 22.71%	  |   24.08%   |   19.98%   |
+|   Shapre Ratio     |	  0.5	  |     0	   |   -0.23    |
+|        Beta        |	  0.84    |	   0.91	   |     1      |
+
+-------------------------------------------------------------
+
+#### One-Year
+|     Statistic	     |  Low Cap   |	 High Cap  |  Benchmark |
+|--------------------|------------|------------|------------|
+| Initial Investment | $10,000.00 | $10,000.00 | $10,000.00 |
+| Ending Investment	 | $9,879.44  |	$10,092.75 | $8,368.33  |
+|  Max Daily Return  |	  5.49%	  |   4.65%    |   2.81%    |
+|  Min Daily Return	 |   -3.90%   |	 -5.61%	   |  -3.94%    |
+|      Return	     |   -1.21%	  |   0.93%	   |  -16.36%   |
+|    Volatility      |	 17.28%	  |   24.07%   |   18.21%   |
+|   Shapre Ratio     |	  -0.13	  |     0	   |   -0.95    |
+|        Beta        |	   0.6    |	   1.11	   |    0.0     |
+
+
 
 
 
