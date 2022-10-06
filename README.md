@@ -277,7 +277,7 @@ The steps outlined above were repeated verbatim for the following low-cap stock 
 |      Return	     |   -1.21%	  |   0.93%	   |  -16.36%   |
 |    Volatility      |	 17.28%	  |   24.07%   |   18.21%   |
 |   Shapre Ratio     |	  -0.13	  |     0	   |   -0.95    |
-|        Beta        |	   0.6    |	   1.11	   |    0.0     |
+|        Beta        |	   0.6    |	   1.11	   |     1      |
 
 
 
