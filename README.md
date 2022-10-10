@@ -7,7 +7,21 @@
 
 # We analyzed the performance of an optimally constructed portfolio of high cap and low cap stocks and compared the performance of each portfolio against the DOW JONES Index for a 1 year investment horizon.
 
+---
+## **Research Question**
 
+Would an Optimally constructed portfolio of High Cap stocks perform better than a similarly constructed portfolio of Low Cap stocks over the last year (Sep-21 to Sep-22)?
+
+---
+## **Abstract**
+
+We Investigated the performance of an Optimally Constructed Portfolio of High Caps Stocks against the DOW JONES Index for a 1 year investment horizon. A simialr analysis was done for an Optimal Portfolio of Low Cap Stocks and following this, we compared the results for the two stock portfolio's (High Cap vs. Low Cap) to determine which of the two would have yielded a higher return over the invested period.
+
+Our Analysis shows that while the optimally constructed porftolio of High Cap stocks performed significantly better than Low Cap stocks for the in-sample period (Jan-2008 to Sep-2021), the results for the out-of-sample period (Sep-21 to Sep-22), were not as promising with both portfolio's yielding similar returns. 
+
+In addition, when comparing the portfolios to the Dow Jones Index (Benchmark), both porfolio's out performed the benchmark for the in-sample period but produced comparable results to the benchmark for the out-of-sample analysis. 
+
+---
 ## **Background**
 
 <p align= "center" width="50">
@@ -20,7 +34,7 @@ Shares are weighted by their market cap by taking their current price multiplied
 
 Currently the index is comprised of stocks across 9 sectors with Apple (AAPL) being the highest market capped weight representing 26.16% of the index and Walgreen Boots Alliance Inc (WBA) the lowest at 0.3%.
 
-
+---
 ## **Collaborators**
 
 - [Aizhen Dong](https://github.com/JD-Yue)
@@ -29,6 +43,7 @@ Currently the index is comprised of stocks across 9 sectors with Apple (AAPL) be
 - [Saibal Saha](https://github.com/saibal-saha)
 - [Desi Reddy](https://github.com/Rebel1124)
 
+---
 ## **Technologies Used**
 
 1. Python
@@ -40,8 +55,8 @@ Currently the index is comprised of stocks across 9 sectors with Apple (AAPL) be
 7. Jupyter Notebook
 8. Streamlit
 
-## **Steps**
 ---
+## **Steps**
 
 1) The first stage in defining an optimally weighted portfolio was deciding upon which index to use as a base to pull potential individual stocks from in order to analyze & incorporate into the final portfolio. It was decided that we would utilize the DJI (Dow Jones Industrial Average), as it incorporates a broadly versatile, trusted & large share volume traded group of well entrenched companies. We concluded on reducing the size of the test portfolio to 5 companies for simplicity sake of testing. Additionally, it was agreed upon that to enhance diversification & subjectively reduce intra-index correlation the 5 companies chosen would be from 5 different categorically defined 'industry' types within the DOW JONES (i.e. Managed Health Care, IT, Petroleum, Financial Services, Conglomerate, Retailing etc.). As a result, we decided upon the top market cap stocks (Hi-Cap) within each of their own respective industry to analyze for optimal portfolio weighting. They included JPM (JP Morgan Chase), AAPL (Apple Inc.), WMT (Walmart), HON (Honeywell), & UNH (UnitedHealth).
 
@@ -53,19 +68,17 @@ Currently the index is comprised of stocks across 9 sectors with Apple (AAPL) be
 
 5) Moreover, in order to compare the optimized portfolio's performance against the DJI benchmark data, we imported '^DJI' indices data via the Yahoo API - in an equivalent process to the 5 high / low cap stocks mentioned above. This data was cleaned, filtered and stored in its own DJI benchmark dataframe.
 
-<br />
+<br>
 
 ![Stock Returns Year 2008-2022](Images/HC_stock-returns.png)
 #### <i> Figure 1.</i> <b>High Cap Stock Returns</b>. <i>The above figure illustrates the daily percent change in price of the 'stock_returns' dataframe for JPM, AAPL, WMT, HON & UNH, respectively. Each stock is over-layed ontop of each other and can be filtered & inspected interactively using the Plotly graphing function, with applicable widgets.</i>
-
-<br />
 
 <br>
 
 ![Stock Returns Year 2008-2022](Images/LC_stock-returns.png)
 #### <i> Figure 2.</i> <b>Low Cap Stock Returns</b>. <i>The above figure illustrates the daily percent change in price of the 'stock_returns' dataframe for AMGN, IBM, MMM, TRV, and WBA, respectively. Each stock is over-layed ontop of each other and can be filtered & inspected interactively using the Plotly graphing function, with applicable widgets.</i>
 
-<br />
+<br>
 
 6) On-top of using the initial dataframes to derive daily-return plots, box-plot return distribution and histogram normalized distribution visualizations were generated for illustrative purposes.
 
@@ -93,7 +106,7 @@ Currently the index is comprised of stocks across 9 sectors with Apple (AAPL) be
 
 ## **Results**
 
-### High Cap
+### **High Cap**
 ---
 
 <b>A. Full Data Set</b>
@@ -101,15 +114,16 @@ Currently the index is comprised of stocks across 9 sectors with Apple (AAPL) be
 ![Stock Returns Year 2008-2022](Images/HC_pie.png)
 #### <i> Figure 3.</i> <b>High Cap Pie Chart - Optimal Portfolio Weights %</b>. <i>The above pie chart depicts the the optimal weighted portfolio as a percentage of JPM, AAPL, WMT, HON & UNH stocks, respectively.</i>
 
-<br />
+<br>
+
 The finalized optimal weighted portfolio dataframe (optimal_port_df) - which contains all 10000 randomized portfolio weight samples, calculated above - is then graphed as a scatter plot. The upper left highlighted natural ridge that forms organically from this plot is colloquially referred to as the efficient frontier. Along this efficient frontier curve, the portfolio that has the maximum Sharpe Ratio value (in this case of the hi-cap stock portfolio) is 0.76, as indicated previously (Refer to Figure 4).
 
-<br />
+<br>
 
 ![Stock Returns Year 2008-2022](Images/HC_Efficient.png)
 #### <i> Figure 4.</i> <b>High Cap Efficient Frontier with Optimal Portfolio Indicated </b>. <i>The above scatter plot depicts the returns (y-axis) and the volatility (x-axis) of all 10000 randomized weighted portfolios consisting of the 5 high-cap DJI stocks JPM, AAPL, WMT, HON & UNH. Highlighted in blue is the optimized return/volatility portfolio with the maximum Sharpe's Ratio value.</i>
 
-<br />
+<br>
 
 <b>Historical Cumulative Returns for the Optimal Portfolio (5 High Cap Stocks)</b>
 
@@ -120,7 +134,7 @@ The optimized cumulative returns dataframe is then concatenated with the benchma
 ![Stock Returns Year 2008-2022](Images/HC_Cumulative.png)
 #### <i> Figure 5.</i> <b>High Cap Optimal Portfolio vs Benchmark Dow Jones Industrial (DJI) Cumulative Historical Performance - Line Graph </b>. <i>The above line plot depicts the returns (y-axis) against time (x-axis) of the optimally weighted portfolio (with maximum Sharpe Ratio value) consisting of the 5 high-cap DJI stocks JPM, AAPL, WMT, HON & UNH vs the benchmark Dow Jones Industrial (DJI).</i>
 
-</br>
+<br>
 
 <b>Full Data Descriptive Statistics</b>
 
@@ -129,7 +143,7 @@ Finally, a table of descriptive statistics was formulated utilizing the data fro
 ![Stock Returns Year 2008-2022](Images/HC_Descriptive.png)
 #### <i> Figure 6.</i> <b>High Cap Optimal Portfolio vs Benchmark Dow Jones Industrial (DJI) Cumulative Historical Performance - Initial Investment Descriptive Statistics Table </b>. <i>The above table displays the initial & ending investment values for an optimally weighted portfolio (with maximum Sharpe's Ratio value) consisting of the 5 high-cap DJI stocks JPM, AAPL, WMT, HON & UNH vs the benchmark Dow Jones Industrial (DJI) for a hypothetical initial capital investment of $10000.</i>
 
-</br>
+<br>
 
 <b>Scatter Plot of Daily Returns of Optimal Portfolio vs Benchmark</b>
 
@@ -160,7 +174,7 @@ g) As before, the sliced dataframe information is then used to determine the eff
 ![Stock Returns Year 2008-2021](Images/HC_Truncated_Pie.png)
 #### <i> Figure 7.</i> <b>High Cap Pie Chart - Optimal Portfolio Weights % From Sliced Data (Excluding Previous 252 Trading Days)</b>. <i>The above pie chart depicts the the optimal weighted portfolio as a percentage of JPM, AAPL, WMT, HON & UNH stocks, respectively.</i>
 
-</br>
+<br>
 
 <b> C. Out of Sample Data</b>
 
@@ -171,9 +185,9 @@ b) Using these cumulative dataframes, in-sample (2008-2021) and out-of-sample (l
 ![Stock Returns Year 2021-2022](Images/HC_OneYear_Descriptive.png)
 #### <i> Figure 8.</i> <b>High Cap Optimal Portfolio vs Benchmark Dow Jones Industrial (DJI) Out-of-Sample Cumulative Historical Performance - Initial Investment Descriptive Statistics Table </b>. <i>The above table displays the initial & ending investment values for an optimally weighted portfolio (with maximum Sharpe's Ratio value) consisting of the 5 high-cap DJI stocks JPM, AAPL, WMT, HON & UNH vs the benchmark Dow Jones Industrial (DJI) for a hypothetical initial capital investment of $10000 that began 252 trading days in the past.</i>
 
-</br>
+<br>
 
-### Low Cap
+### **Low Cap**
 ---
 <b>A. Full Data Set</b>
 
@@ -182,12 +196,12 @@ The steps outlined above were repeated verbatim for the following low-cap stock 
 ![Stock Returns Year 2008-2022](Images/LC_Pie.png)
 #### <i> Figure 9.</i> <b>Low Cap Stock Returns</b>. <i>The above figure illustrates the daily percent change in price of the 'stock_returns' dataframe for AMGN, IBM, MMM, TRV, and WBA, respectively. Each stock is over-layed ontop of each other and can be filtered & inspected interactively using the Plotly graphing function, with applicable widgets.</i>
 
-</br>
+<br>
 
 ![Stock Returns Year 2008-2022](Images/LC_Efficient.png)
 #### <i> Figure 10.</i> <b>Low Cap Efficient Frontier with Optimal Portfolio Indicated </b>. <i>The above scatter plot depicts the returns (y-axis) and the volatility (x-axis) of all 10000 randomized weighted portfolios consisting of the 5 low-cap DJI stocks (AMGN, IBM, MMM, TRV, and WBA). Highlighted in blue is the optimized return/volatility portfolio with the maximum Sharpe's Ratio value.</i>
 
-<br />
+<br>
 
 ![Stock Returns Year 2008-2022](Images/LC_Cumulative.png)
 #### <i> Figure 11.</i> <b>Low Cap Optimal Portfolio vs Benchmark Dow Jones Industrial (DJI) Cumulative Historical Performance - Line Graph </b>. <i>The above line plot depicts the returns (y-axis) against time (x-axis) of the optimally weighted portfolio (with maximum Sharpe's Ratio value) consisting of the 5 low-cap DJI stocks (AMGN, IBM, MMM, TRV, and WBA) vs the benchmark Dow Jones Industrial (DJI).</i>
@@ -200,25 +214,25 @@ The steps outlined above were repeated verbatim for the following low-cap stock 
 
 #### <i> Figure 12.</i> <b>Low Cap Optimal Portfolio vs Benchmark Dow Jones Industrial (DJI) Cumulative Historical Performance - Initial Investment Descriptive Statistics Table </b>. <i>The above table displays the initial & ending investment values for an optimally weighted portfolio (with maximum Sharpe's Ratio value) consisting of the 5 low-cap DJI stocks (AMGN, IBM, MMM, TRV, and WBA) vs the benchmark Dow Jones Industrial (DJI) for a hypothetical initial capital investment of $10000.</i>
 
-</br>
+<br>
 
 <b>B. Truncated Data</b>
 
 ![Stock Returns Year 2008-2021](Images/LC_Truncated_Pie.png)
 #### <i> Figure 13.</i> <b>Low Cap Pie Chart - Optimal Portfolio Weights % From Sliced Data (Excluding Previous 252 Trading Days)</b>. <i>The above pie chart depicts the the optimal weighted portfolio as a percentage of AMGN, IBM, MMM, TRV, and WBA stocks, respectively.</i>
 
-</br>
+<br>
 
 ![Stock Returns Year 2021-2022](Images/LC_OneYear_Descriptive.png)
 #### <i> Figure 14.</i> <b>Low Cap Optimal Portfolio vs Benchmark Dow Jones Industrial (DJI) Out-of-Sample Cumulative Historical Performance - Initial Investment Descriptive Statistics Table </b>. <i>The above table displays the initial & ending investment values for an optimally weighted portfolio (with maximum Sharpe's Ratio value) consisting of the 5 low-cap DJI stocks AMGN, IBM, MMM, TRV, and WBA vs the benchmark Dow Jones Industrial (DJI) for a hypothetical initial capital investment of $10000 that began 252 trading days in the past.</i>
 
-</br>
+<br>
 
 ---
 
 ## **Conclusion**
 
-#### Complete Data
+#### **A. Complete Data (2008-2022)**
 
 |     Statistic	     |  Low Cap   |	 High Cap   |  Benchmark |
 |--------------------|------------|-------------|------------|
@@ -233,7 +247,7 @@ The steps outlined above were repeated verbatim for the following low-cap stock 
 
 For the period of 2008 to 2022, both low cap and high cap portfolios (with stocks of optimal weights) outperfomed DJI with higher ending investment, percentage of returns and sharpe ratio. The volatility of the portfolios are also higher than that of DJI which indicates the potential to make more money quicky. Their beta is lower than DJI's beta which means that the volatility is within the acceptable range.
 
-#### Truncated
+#### **B. Truncated (2008-2021)**
 
 |     Statistic	     |  Low Cap   |	 High Cap   |  Benchmark |
 |--------------------|------------|-------------|------------|
@@ -249,7 +263,7 @@ For the period of 2008 to 2022, both low cap and high cap portfolios (with stock
 -------------------------------------------------------------
 Truncated data shows similar results with that of the complete data. The returns of low cap and high cap portfolios are slightly lower than that of the complete data. This shows the impact of Year 2022 (recession starts this year) has on the investments. The returns were reduced during the last year, especially for the high cap portfolio. This can be further supported by the following results.
 
-#### One-Year
+#### **C. One-Year (2022)**
 |     Statistic	     |  Low Cap   |	 High Cap  |  Benchmark |
 |--------------------|------------|------------|------------|
 | Initial Investment | $10,000.00 | $10,000.00 | $10,000.00 |
@@ -261,8 +275,25 @@ Truncated data shows similar results with that of the complete data. The returns
 |   Sharpe Ratio     |	  -0.13	  |     0	   |   -0.95    |
 |        Beta        |	   0.6    |	   1.11	   |     1      |
 
-The truncated table shows that high cap stocks outperformed low cap stock, thus it seems ideal to invest in high cap stocks. However the last year (actual) result shows that the returns of low cap portfolio, high cap portfolio and DJI are very close and high cap stocks generate very little returns on investment (only $92.75). The performance of low cap portfolio and DJI are within the acceptable range as compared to the historical performance. The performance of high cap portfolio dropped drastically compared to the historical results. This shows that the low cap stocks respond better to the recession 
+The truncated table shows that high cap stocks outperformed low cap stock, thus it seems ideal to invest in high cap stocks. However the last year (actual) result shows that the returns of low cap portfolio, high cap portfolio and DJI are very close and high cap stocks generate very little returns on investment. The performance of low cap portfolio and DJI are within the acceptable range as compared to the historical performance. The performance of high cap portfolio dropped drastically compared to the historical results. This shows that the low cap stocks respond better to the recession 
 (U.S. entered a recession in the summer of 2022) than the high cap stocks. Considering the beta of the high cap portfolio (1.11) in the last year, it seems more risky to invest solely in the high cap stocks during recession. Year 2022 marks the beginning of the recession and returns may continue to drop in the future. Thus we suggest to invest in a portfolio with both high cap and low cap stocks in order to maximize the returns and minimize the risks during the period of recession. 
+
+---
+
+## **Postmortem**
+Since we were utilizing the Yahoo Finance API to pull out stock data, there were major issues with the cleaning of the data. Much of our difficulties came from the computations and analysis of the optimally constructed portfolio's. In particular, we note the following:
+
+a) Since we fetched our data from Yahoo as opposed to Alpaca, we ran into difficulties with the Monte Carlo Simulation. The script given to us in class makes is specific to the Alpaca API, and according we had to write code to transform our dataframe to match that Alpaca before running the Monte Carlo Simulation. Going foward, it would have been better for us to have written a function to perform the simulation based on the Yahoo Finance API rather than making tranformations to the dataframe.  
+
+b) Since we were using random number generators to randomly allocate weights to our portfolio's another issue we encountered had to do with the sorting of stocks. Since the weights generated were the same, changes to the positioning of stocks in the dataframe resulted in inconsistent results and marginally different optimal portfolios. After much investigation, we were able to identify the issue and resolve the problem by firts sorting the list of stocks before running it through the optimizer. This resulted in us achieving a consistent optimal portfolio regardless of the order in which the stocks are selected.
+
+c) Lastly, since we were using pythons random number generator, we found that if we did not set the seed for this function, we again got inconsistent results for the optimal portfolio. In addition, we also found that running the np.random.random() vs. np.random.rand() functions also produced slights different weights. In addition, we also picked that the seed needed to be set each time the random function was run, setting it once at the beginning was not enough to keep the numbers generated consistent if the function was run more than once. 
+
+In the end, the solution we went with was to to be consistent and use the rand() function and to set the seed (seed(42)), before each run of the function. This fixed our issue and gave us a consistent optimal portfolio on every run.
+
+---
+
+**Click Here to Launch App: [Portfolio Optimizer App](https://rebel1124-optimizer-app-optimizer-quvt0i.streamlitapp.com/)**
 
 ## **Reference**
 
