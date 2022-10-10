@@ -288,7 +288,7 @@ In the end, the solution we went with was to to be consistent and use the rand()
 
 ---
 
-**Click Here to Launch App: [Portfolio Optimizer App](https://rebel1124-optimizer-app-optimizer-quvt0i.streamlitapp.com/)**
+<a href="[http://example.com/](https://rebel1124-optimizer-app-optimizer-quvt0i.streamlitapp.com/)" target="_blank">Portfolio Optimizer App</a>
 
 ## **Reference**
 
