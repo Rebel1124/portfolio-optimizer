@@ -3,11 +3,6 @@
  **UTOR: FinTech Bootcamp - Project 1: Portfolio Optimizer**
 =======
 
-## **Research Topic**
-
-# We analyzed the performance of an optimally constructed portfolio of high cap and low cap stocks and compared the performance of each portfolio against the DOW JONES Index for a 1 year investment horizon.
-
----
 ## **Research Question**
 
 Would an Optimally constructed portfolio of High Cap stocks perform better than a similarly constructed portfolio of Low Cap stocks over the last year (Sep-21 to Sep-22)?
