@@ -292,6 +292,11 @@ In the end, the solution we went with was to to be consistent and use the rand()
 
 ## **Reference**
 
+1. https://www.investopedia.com/terms/s/sharperatio.asp#toc-what-is-a-good-sharpe-ratio
+2. https://ca.finance.yahoo.com
+3. https://www.machinelearningplus.com/machine-learning/portfolio-optimization-python-example/
+4. https://www.analyticsvidhya.com/blog/2021/04/portfolio-optimization-using-mpt-in-python/
+5. https://www.mlq.ai/python-for-finance-portfolio-optimization/
 
 
 
