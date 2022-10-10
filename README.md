@@ -297,7 +297,3 @@ In the end, the solution we went with was to to be consistent and use the rand()
 3. https://www.machinelearningplus.com/machine-learning/portfolio-optimization-python-example/
 4. https://www.analyticsvidhya.com/blog/2021/04/portfolio-optimization-using-mpt-in-python/
 5. https://www.mlq.ai/python-for-finance-portfolio-optimization/
-
-
-
-> > > > > > > Stashed changes
