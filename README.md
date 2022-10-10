@@ -288,10 +288,6 @@ In the end, the solution we went with was to to be consistent and use the rand()
 
 ---
 
-https://rebel1124-optimizer-app-optimizer-quvt0i.streamlitapp.com/.ink?to=/placeholder.com
-
-https://external.ink?to=/rebel1124-optimizer-app-optimizer-quvt0i.streamlitapp.com/
-
 **Click Here to Launch App: [Portfolio Optimizer App](https://rebel1124-optimizer-app-optimizer-quvt0i.streamlitapp.com/)**
 
 ## **Reference**
