@@ -262,7 +262,6 @@ Next, we calculated the optimal weights by using the truncated data (2008 to 202
 |   Sharpe Ratio     |	  0.5	  |    0.82	    |    0.23    |
 |        Beta        |	  0.84    |	   0.91	    |     1      |
 
--------------------------------------------------------------
 
 Portfolios of truncated periods (2008-2021) (with stocks of optimal weights) shows similar results with that of the complete period (2008-2022). Both high cap and low cap portfolios did better than DJI. Especially for high cap portfolio, the return is threes times better than the low cap portfolio and 6 times better than the DJI. Thus we believe that for Year 2022, investment in the high cap portfolio will continue bring better results than the low cap portfolio and DJI.
 
