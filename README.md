@@ -245,9 +245,11 @@ The steps outlined above were repeated verbatim for the following low-cap stock 
 |   Sharpe Ratio     |	  0.47	  |    0.76	    |    0.23    |
 |        Beta        |	  0.81    |	   0.91	    |     1      |
 
-For the period of 2008 to 2022, both low cap and high cap portfolios (with stocks of optimal weights) outperfomed DJI with higher ending investment, percentage of returns and sharpe ratio. The volatility of the portfolios are also higher than that of DJI which indicates the potential to make more money quicky. Their beta is lower than DJI's beta which means that the volatility is within the acceptable range.
+For the period of 2008 to 2022, both low cap and high cap portfolios (with stocks of optimal weights) outperfomed DJI with higher ending investment, percentage of returns and sharpe ratio. The volatility of the portfolios are also higher than that of DJI which indicates the potential to make more money quicky. Their beta is lower than DJI's beta which means that the volatility is within the acceptable range. These all show that the optimal weights and the optimal portfolios we got do bring better returns.
 
 #### **B. Truncated (2008-2021)**
+
+Next, we calculated the optimal weights by using the truncated data (2008 to 2021) and tried to see what results we can achieve by appying the same weights to Year 2022.
 
 |     Statistic	     |  Low Cap   |	 High Cap   |  Benchmark |
 |--------------------|------------|-------------|------------|
@@ -261,9 +263,11 @@ For the period of 2008 to 2022, both low cap and high cap portfolios (with stock
 |        Beta        |	  0.84    |	   0.91	    |     1      |
 
 -------------------------------------------------------------
-Truncated data shows similar results with that of the complete data. The returns of low cap and high cap portfolios are slightly lower than that of the complete data. This shows the impact of Year 2022 (recession starts this year) has on the investments. The returns were reduced during the last year, especially for the high cap portfolio. This can be further supported by the following results.
+
+Portfolios of truncated periods (2008-2021) (with stocks of optimal weights) shows similar results with that of the complete period (2008-2022). Both high cap and low cap portfolios did better than DJI. Especially for high cap portfolio, the return is threes times better than the low cap portfolio and 6 times better than the DJI. Thus we believe that for Year 2022, investment in the high cap portfolio will continue bring better results than the low cap portfolio and DJI.
 
 #### **C. One-Year (2022)**
+
 |     Statistic	     |  Low Cap   |	 High Cap  |  Benchmark |
 |--------------------|------------|------------|------------|
 | Initial Investment | $10,000.00 | $10,000.00 | $10,000.00 |
@@ -275,8 +279,7 @@ Truncated data shows similar results with that of the complete data. The returns
 |   Sharpe Ratio     |	  -0.13	  |     0	   |   -0.95    |
 |        Beta        |	   0.6    |	   1.11	   |     1      |
 
-The truncated table shows that high cap stocks outperformed low cap stock, thus it seems ideal to invest in high cap stocks. However the last year (actual) result shows that the returns of low cap portfolio, high cap portfolio and DJI are very close and high cap stocks generate very little returns on investment. The performance of low cap portfolio and DJI are within the acceptable range as compared to the historical performance. The performance of high cap portfolio dropped drastically compared to the historical results. This shows that the low cap stocks respond better to the recession 
-(U.S. entered a recession in the summer of 2022) than the high cap stocks. Considering the beta of the high cap portfolio (1.11) in the last year, it seems more risky to invest solely in the high cap stocks during recession. Year 2022 marks the beginning of the recession and returns may continue to drop in the future. Thus we suggest to invest in a portfolio with both high cap and low cap stocks in order to maximize the returns and minimize the risks during the period of recession. 
+The truncated table shows that high cap portfolio outperformed low cap portfolio, thus it seems ideal to invest in the high cap portfolio. However the last year (actual) result shows that the returns of low cap portfolio, high cap portfolio and DJI are very close and high cap portfolio generates very little returns on the investment. The performance of low cap portfolio and DJI are within the acceptable range as compared to the historical performance. The performance of high cap portfolio dropped drastically compared to its historical results. This shows that the low cap stocks may respond better to the recession (U.S. entered a recession in the summer of 2022) than the high cap stocks. Considering the beta of the high cap portfolio (1.11) in Year 2022, it seems more risky to invest solely in the high cap stocks during recession. Year 2022 marks the beginning of the recession and returns may continue to drop in the future. Thus we suggest to invest in a portfolio with both high cap and low cap stocks in order to maximize the returns and minimize the risks during the period of recession. 
 
 ---
 
